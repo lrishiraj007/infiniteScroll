@@ -1,1 +1,1 @@
-# infinitescroll
+# infinitescrolls
