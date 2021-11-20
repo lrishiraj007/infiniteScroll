@@ -1,0 +1,73 @@
+.user {
+  overflow: hidden;
+}
+.user img {
+  float: left;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.user .user-details {
+  display: block;
+  float: left;
+}
+.page-container {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+.page-container .page-header {
+  margin: 0 auto 30px;
+  max-width: 675px;
+}
+.page-container .page-header h1.page-title {
+  line-height: 1.3;
+  margin: 0;
+  font-size: 37px;
+  font-weight: 800;
+}
+.page-container .page-header p.sub-title {
+  margin: 15px 0;
+}
+.page-container .page-content {
+  margin: 0 auto;
+}
+.page-container .page-content.mini-container {
+  max-width: 675px;
+}
+.section {
+  text-align: left;
+  margin-bottom: 30px;
+}
+.page-container .page-content .section h3.section-title {
+  margin: 15px 0;
+}
+
+.loader4 {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  padding: 0px;
+  border-radius: 100%;
+  border: 5px solid;
+  border-top-color: rgb(12, 110, 253);
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+  border-left-color: rgb(12, 110, 253);
+  border-right-color: rgba(255, 255, 255, 0.3);
+  -webkit-animation: loader4 1s ease-in-out infinite;
+  animation: loader4 1s ease-in-out infinite;
+}
+@keyframes loader4 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes loader4 {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
